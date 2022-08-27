@@ -14,10 +14,10 @@
       
       
           <form>
-            <p>How much was your bill?
-              <p>
-                $ <input id="billamt" type="text" placeholder="Bill Amount">
-      
+            <h2>How much was your bill?
+              </h2>
+                <p> Enter Rs. <input id="billamt" type="text" placeholder="Bill Amount">
+                </p>
                 <p>How was your service?
                   <p>
                     <select id="serviceQual">
@@ -33,23 +33,14 @@
       
           </form>
           <p>How many people are sharing the bill?</p>
-          People:<input id="peopleamt" type="text" placeholder="Number of People">
-          <button type="button" id="calculate">Calculate!</button>
-      
+          <p> <input id="peopleamt" type="text" placeholder="Number of People">
+          </p><button type="button" id="calculate">Calculate!</button>
+          <div id="totalTip">
+            <sup>$</sup><span id="tip">0.00</span>
+            <small id="each">each</small>
+          </div>
         </div>
-        <!--calculator end-->
-        <div id="totalTip">
-          <sup>$</sup><span id="tip">0.00</span>
-          <small id="each">each</small>
-        </div>
-        <!--totalTip end-->
-      
       </div>
-      <!--container end-->
-
-
-    
-
     <script src="script.js"></script>
 </body>
 </html>
