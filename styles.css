@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap'); */
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Georgia, serif;
   font-weight: bolder;
     background-image: url(https://images.unsplash.com/photo-1469234496837-d0101f54be3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=918&q=80);
     height:100%;
@@ -46,7 +46,6 @@ body {
     display: flexbox;
     align-items: center;
     justify-content: center;
-    /* padding-top: 2%; */
     color: white;
     font-weight: bolder;
     font-size: 20px;
@@ -58,28 +57,37 @@ body {
   
   #billamt, #peopleamt {
     font-size: 25px;
+    /* padding: 2%; */
     color: white;
     background-color: #f7f7f7;
     width: 85%;
     text-align: center;
-    border: solid black 5px;
+    border:5px solid whitesmoke ;
     border-radius: 11px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:2%;
+    /* padding:2%; */
     margin: auto;
     /* padding: 5px 5px 30px 34px; */
   }
   
-  #billamt,#peopleamt:focus {
+  #billamt:focus {
     background: #fff;
     border: 5px solid #2980b9;
     outline: none;
+    /* padding: 2%; */
     color: black;
     font-weight: bold;
   }
-  
+  #peopleamt:focus{
+    background: #fff;
+    border: 5px solid #2980b9;
+    outline: none;
+    /* padding: 2%; */
+    color: black;
+    font-weight: bold;
+  }
   .dollarSign {
     display: inline;
   }
