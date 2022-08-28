@@ -154,3 +154,21 @@ body {
     font-weight: bold;
     display: block;
   }
+@media only screen and (max-width: 768px) {
+    #container {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: black;
+    /* background-image: url(https://cdn0.weddingwire.in/vendor/3644/original/960/jpg/bgb-the-dark-room_15_53644-1552975120.webp); */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 5px solid white;
+    padding: 2%;
+    opacity: 0.8;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
