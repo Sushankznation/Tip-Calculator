@@ -68,23 +68,27 @@ body {
     align-items: center;
     justify-content: center;
     padding:2%;
+    margin: auto;
     /* padding: 5px 5px 30px 34px; */
   }
   
-  #billamt:focus {
+  #billamt,#peopleamt:focus {
     background: #fff;
     border: 5px solid #2980b9;
     outline: none;
+    color: black;
+    font-weight: bold;
   }
   
   .dollarSign {
     display: inline;
   }
   
-  #serviceQual {
+  #serviceQual,option {
     /* padding: 13px 13px 30px 20px; */
-    padding: 5%;
+    padding: 3%;
     font-size: 15px;
+    font-weight: bold;
     border: solid white 5px;
     border-radius: 20px;
   }
@@ -117,12 +121,14 @@ body {
   #totalTip {
     font-size: 30px;
     margin-top: 5px;
+    color: #f7f7f7;
     text-align: center;
   }
   
   #totalTip:before {
     content: "Tip amount";
     font-size: 20px;
+    color: #f7f7f7;
     font-weight: bold;
     display: block;
     text-transform: uppercase;
@@ -131,9 +137,11 @@ body {
   #totalTip sup {
     font-size: 20px;
     top: -18px;
+    color: #f7f7f7;
   }
   
   #totalTip small {
+    color: #f7f7f7;
     font-size: 20px;
     font-weight: bold;
     display: block;
